@@ -32,7 +32,6 @@
             this.txtSOP = new System.Windows.Forms.TextBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnEscolherTXT = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblDigite = new System.Windows.Forms.Label();
             this.lblExemploSOP = new System.Windows.Forms.Label();
             this.lblCarregue = new System.Windows.Forms.Label();
@@ -71,15 +70,6 @@
             this.btnEscolherTXT.Text = "Escolher TXT";
             this.btnEscolherTXT.UseVisualStyleBackColor = false;
             this.btnEscolherTXT.Click += new System.EventHandler(this.btnEscolherTXT_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
             // 
             // lblDigite
             // 
@@ -164,7 +154,6 @@
             this.Controls.Add(this.lblCarregue);
             this.Controls.Add(this.lblExemploSOP);
             this.Controls.Add(this.lblDigite);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnEscolherTXT);
             this.Controls.Add(this.txtSOP);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -181,7 +170,6 @@
         private System.Windows.Forms.TextBox txtSOP;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button btnEscolherTXT;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblDigite;
         private System.Windows.Forms.Label lblExemploSOP;
         private System.Windows.Forms.Label lblCarregue;
