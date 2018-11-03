@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace quine
+namespace QuineMcCluskey_GraficoC
 {
     class ArquivoTXT
     {
@@ -12,7 +12,8 @@ namespace quine
         public ArquivoTXT(string caminhoArquivo)
         {
             this.numeroVariaveis = 0;
-            this.caminhoArquivo = App_Path() + caminhoArquivo;
+            this.caminhoArquivo = caminhoArquivo;
+            //this.caminhoArquivo = App_Path() + caminhoArquivo;
         }
 
         private string App_Path()
@@ -36,7 +37,7 @@ namespace quine
         private int PegarNumeroMintermos()
         {
             StreamReader arquivoTXT = new StreamReader(caminhoArquivo);
-            
+
             string conteudo = arquivoTXT.ReadLine();
             string ultimoMintermoAux = "";
             string numeroMintermo = "";
@@ -64,7 +65,7 @@ namespace quine
                     break;
                 }
             }
-            
+
             return numeroMintermos;
         }
 
@@ -89,7 +90,7 @@ namespace quine
                         DontCares.Add(Convert.ToInt32(posicaoMintermo));
                     else
                         Posicoes.Add(Convert.ToInt32(posicaoMintermo));
-                    
+
                     posicaoMintermo = "";
                     ehDontCare = false;
                 }
@@ -173,10 +174,10 @@ namespace quine
                         contadorAux += 1;
 
                         if (contadorAux <= quantPulos)
-                            Mintermos[j].Variaveis = Mintermos[j].Variaveis.PadLeft(contador+1, '0');
+                            Mintermos[j].Variaveis = Mintermos[j].Variaveis.PadLeft(contador + 1, '0');
                         else
                         {
-                            Mintermos[j].Variaveis = Mintermos[j].Variaveis.PadLeft(contador+1, '1');
+                            Mintermos[j].Variaveis = Mintermos[j].Variaveis.PadLeft(contador + 1, '1');
 
                             if (contadorAux == quantPulos * 2)
                                 contadorAux = 0;
@@ -212,7 +213,7 @@ namespace quine
 
                 contador += 1;
             }
-            
+
             return ResultadoMintermos;
         }
     }

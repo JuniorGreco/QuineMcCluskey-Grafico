@@ -52,6 +52,8 @@
     <Compile Include="Model\ArquivoTXT.cs" />
     <Compile Include="Model\Coluna.cs" />
     <Compile Include="Model\Mintermo.cs" />
+    <Compile Include="Model\QuineMcCluskey.cs" />
+    <Compile Include="ViewModel\ViewMain.cs" />
     <Compile Include="View\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,9 +96,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="024-startup-10.ico" />
   </ItemGroup>

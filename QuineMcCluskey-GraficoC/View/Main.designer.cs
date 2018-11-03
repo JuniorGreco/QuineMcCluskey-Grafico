@@ -51,7 +51,7 @@
             this.txtSOP.Name = "txtSOP";
             this.txtSOP.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtSOP.ShortcutsEnabled = false;
-            this.txtSOP.Size = new System.Drawing.Size(695, 215);
+            this.txtSOP.Size = new System.Drawing.Size(734, 215);
             this.txtSOP.TabIndex = 3;
             // 
             // openFileDialog
@@ -122,7 +122,7 @@
             this.barraSuperior.BackColor = System.Drawing.Color.CornflowerBlue;
             this.barraSuperior.Location = new System.Drawing.Point(0, 236);
             this.barraSuperior.Name = "barraSuperior";
-            this.barraSuperior.Size = new System.Drawing.Size(900, 4);
+            this.barraSuperior.Size = new System.Drawing.Size(930, 4);
             this.barraSuperior.TabIndex = 9;
             // 
             // txtLog
@@ -135,7 +135,7 @@
             this.txtLog.Name = "txtLog";
             this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtLog.ShortcutsEnabled = false;
-            this.txtLog.Size = new System.Drawing.Size(695, 253);
+            this.txtLog.Size = new System.Drawing.Size(734, 253);
             this.txtLog.TabIndex = 10;
             // 
             // btnExecutar
@@ -157,7 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(884, 511);
+            this.ClientSize = new System.Drawing.Size(914, 511);
             this.Controls.Add(this.btnExecutar);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.barraSuperior);

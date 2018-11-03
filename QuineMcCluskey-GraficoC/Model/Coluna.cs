@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace quine
+namespace QuineMcCluskey_GraficoC
 {
     public class Coluna
     {

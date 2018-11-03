@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace quine
+namespace QuineMcCluskey_GraficoC
 {
     public class Mintermo
     {
