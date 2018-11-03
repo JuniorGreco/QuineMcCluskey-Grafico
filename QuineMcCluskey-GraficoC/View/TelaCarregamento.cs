@@ -21,9 +21,13 @@ namespace QuineMcCluskey_GraficoC
             if (pnBaseFront.Width >= pnBaseBack.Width)
             {
                 timer.Stop();
-                Main Main = new Main();
-                Main.Show();
+                // Tela não responsiva
+                //Main Main = new Main();
+                //Main.Show();
+                TelaPrincipal lay = new TelaPrincipal();
+                lay.Show();
                 this.Hide();
+                //this.Close();
             }
             else
             {
