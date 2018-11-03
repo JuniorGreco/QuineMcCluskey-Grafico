@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuineMcCluskey_GraficoC.View;
+using System;
 using System.Windows.Forms;
 
 namespace QuineMcCluskey_GraficoC
@@ -20,6 +21,9 @@ namespace QuineMcCluskey_GraficoC
             if (pnBaseFront.Width >= pnBaseBack.Width)
             {
                 timer.Stop();
+                Main Main = new Main();
+                Main.Show();
+                this.Hide();
             }
             else
             {
