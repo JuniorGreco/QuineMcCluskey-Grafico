@@ -221,6 +221,8 @@ namespace QuineMcCluskey_GraficoC.Model
                         if (ColunaMintermos[mintermo].Valor == 1)
                             TabelaCobertura.Add(mintermo);
                     }
+
+                    estaCoberto = false;
                 }
             }
 
@@ -357,23 +359,23 @@ namespace QuineMcCluskey_GraficoC.Model
                 }
             }
 
-            Boolean temZerado = true;
+            //Boolean temZerado = true;
 
-            while (temZerado)
-            {
-                temZerado = false;
+            //while (temZerado)
+            //{
+            //    temZerado = false;
 
-                foreach (var Coluna in ColunaMintermosAgrupados)
-                {
-                    if (Coluna.Count == 0)
-                    {
-                        ColunaMintermosAgrupados.Remove(Coluna);
-                        temZerado = true;
+            //    foreach (var Coluna in ColunaMintermosAgrupados)
+            //    {
+            //        if (Coluna.Count == 0)
+            //        {
+            //            ColunaMintermosAgrupados.Remove(Coluna);
+            //            temZerado = true;
 
-                        break;
-                    }
-                }
-            }
+            //            break;
+            //        }
+            //    }
+            //}
 
             ImprimeMintermosAgrupados(ColunaMintermosAgrupados); /* Imprime as Colunas de Mintermos de forma agrupada no Console */
 
