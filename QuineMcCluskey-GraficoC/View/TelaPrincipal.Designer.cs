@@ -156,7 +156,7 @@
             this.lblExemploSOP.Name = "lblExemploSOP";
             this.lblExemploSOP.Size = new System.Drawing.Size(154, 80);
             this.lblExemploSOP.TabIndex = 8;
-            this.lblExemploSOP.Text = "Exemplo\r\nMintermos: 0;17;\r\nDon\'t Cares: -4; -25;\r\nSOP: 0;-4;17;-25;";
+            this.lblExemploSOP.Text = "Exemplo\r\nMintermos: 0; 17;\r\nDon\'t Cares: -4; -25;\r\nSOP: 0; -4; 17; -25;";
             // 
             // lblCarregue
             // 

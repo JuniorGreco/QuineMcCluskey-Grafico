@@ -96,7 +96,7 @@ namespace QuineMcCluskey_GraficoC
                 }
                 else if (caracter == '-')
                     ehDontCare = true;
-                else
+                else if (caracter != ' ')
                     posicaoMintermo += caracter.ToString();
             }
 
