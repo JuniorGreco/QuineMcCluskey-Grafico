@@ -7,6 +7,7 @@ namespace QuineMcCluskey_GraficoC
     class ArquivoTXT
     {
         private string caminhoArquivo;
+
         private int numeroVariaveis;
 
         public ArquivoTXT(string caminhoArquivo)

@@ -30,10 +30,10 @@ namespace QuineMcCluskey_GraficoC.View
         private void btnExecutar_Click(object sender, EventArgs e)
         {
             // Carrega todos os Mintermos e Don't Cares do arquivo TXT
-            List<Mintermo> ColunaMintermos = ViewMain.CarregarMintermosDoTXT(caminhoArquivo);
+            List<Mintermo> ColunaMintermos = ViewMain.CarregarMintermosSoap(txtSOP.Text);
 
             // Executa o Método responsável pelo Quine McCluskey
-            QuineMcCluskey Quine = new QuineMcCluskey(ViewMain.numVariaveis);
+            QuineMcCluskey Quine = new QuineMcCluskey(ViewMain.numeroVariaveis);
             Quine.Executa(ColunaMintermos, txtLog);
         }
     }
