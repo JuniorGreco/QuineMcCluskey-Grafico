@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\ArquivoTXT.cs" />
     <Compile Include="Model\Coluna.cs" />
     <Compile Include="Model\Mintermo.cs" />
     <Compile Include="Model\QuineMcCluskey.cs" />

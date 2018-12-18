@@ -109,9 +109,9 @@
             this.lblNomeEmpresa.ForeColor = System.Drawing.Color.White;
             this.lblNomeEmpresa.Location = new System.Drawing.Point(662, 330);
             this.lblNomeEmpresa.Name = "lblNomeEmpresa";
-            this.lblNomeEmpresa.Size = new System.Drawing.Size(128, 16);
+            this.lblNomeEmpresa.Size = new System.Drawing.Size(111, 16);
             this.lblNomeEmpresa.TabIndex = 6;
-            this.lblNomeEmpresa.Text = "Rocketz Software";
+            this.lblNomeEmpresa.Text = "By João Greco";
             // 
             // TelaCarregamento
             // 
